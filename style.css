@@ -137,20 +137,20 @@ h4{
 
    .spacing {
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
    }
 
    .lessspacing{
     display: inline-block;
-    margin-top: 8px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 8px;
     vertical-align: middle;
    }
 
    .notag {
     display: inline-block;
-    margin-top: 12px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 8px;
     vertical-align: middle;
    }
