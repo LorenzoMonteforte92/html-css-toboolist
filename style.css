@@ -7,6 +7,7 @@
 body{
     background-color: #F6F8F9;
     font-family: 'Roboto', sans-serif;
+    color: #444950;
 }
 
 /*--------------- 
@@ -33,9 +34,12 @@ header{
 .container{
     max-width: 800px;
     margin: 0 auto;
-}
+    padding: 1% 3%;
 
-.task-button{
+}
+    /* navigation bar */
+
+    .task-button{
     color: white;
     background-color: #47ADF2;
     border: none;
@@ -66,3 +70,44 @@ header{
     background-color: #C5CBD0;
     color: black;
 }
+
+    /* /navigation bar */
+
+h4{
+    color: #444950;
+}
+
+     /* circles style */
+.circle {
+    display: inline-block;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.circle-done {
+    border: 1px solid #65C0A9;
+    color: #65C0A9;
+}
+
+.circle-todo {
+    border: 1px solid #EA4237;
+    color: #EA4237;
+}
+
+   /* tag style */
+
+   .tag {
+    display: inline-block;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+   }
+
+   .blue-tag{
+    background-color: #45ABEA;
+   }
