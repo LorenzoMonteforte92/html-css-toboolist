@@ -25,3 +25,44 @@ body{
 header{
     padding: 10px 20px;
 }
+
+/*--------------- 
+    APP BODY 
+-----------------*/
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.task-button{
+    color: white;
+    background-color: #47ADF2;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.selection-button{
+    color: #C5CBD0;
+    background-color: white;
+    border: none;
+    height: 30px;
+    width: 85px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.task-button:hover {
+    background-color: white;
+    color: #47ADF2;
+}
+
+.selection-button:hover {
+    background-color: #C5CBD0;
+    color: black;
+}
