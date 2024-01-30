@@ -75,6 +75,7 @@ header{
 
 h4{
     color: #444950;
+    margin-top: 15px;
 }
 
      /* circles style */
@@ -110,4 +111,22 @@ h4{
 
    .blue-tag{
     background-color: #45ABEA;
+   }
+
+   .pink-tag{
+    background-color: #9C72E4;
+   }
+
+   .green-tag{
+    background-color: #65C0A9;
+   }
+
+   .orange-tag{
+    background-color: #F29D33;
+   }
+
+   .spacing {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
    }
